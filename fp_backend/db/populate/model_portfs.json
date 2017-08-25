@@ -1,0 +1,1465 @@
+{
+    "id": "VESTMO_CONSERVATIVE_PRO_PORTF",
+    "name": "Professional Portfolio - Fixed Income",
+    "universe_id": "VESTMO_PRO",
+    "risk_level": 0,
+    "risk_level_title": "Conservative",
+    "expected_return": 3,
+    "expected_volatility": 3,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 0,
+        "securities": []
+    }, {
+        "id": "aa11",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_ASIAXJAP",
+        "ac_name": "Asia Ex Japan",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40034373",
+            "co_info": null,
+            "fund_info": "40034373",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa12",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_JAPAN",
+        "ac_name": "Japan",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40041163",
+            "co_info": null,
+            "fund_info": "40041163",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa13",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_USA",
+        "ac_name": "USA",
+        "weight": 25,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40007835",
+            "co_info": null,
+            "fund_info": "40007835",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa14",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EU",
+        "ac_name": "Europe",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005602",
+            "co_info": null,
+            "fund_info": "40005602",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa15",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EM",
+        "ac_name": "Emerging Market",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005698",
+            "co_info": null,
+            "fund_info": "40005698",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 80,
+        "securities": []
+    }, {
+        "id": "aa21",
+        "parent": "aa2",
+        "ac_id": "AC_FI_AGG",
+        "ac_name": "Aggregate",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "60101473",
+            "co_info": null,
+            "fund_info": "60101473",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa22",
+        "parent": "aa2",
+        "ac_id": "AC_FI_LTG",
+        "ac_name": "Long Term Government",
+        "weight": 20,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40123266",
+            "co_info": null,
+            "fund_info": "40123266",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa23",
+        "parent": "aa2",
+        "ac_id": "AC_FI_BL",
+        "ac_name": "Bank Loan",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40216340",
+            "co_info": null,
+            "fund_info": "40216340",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa24",
+        "parent": "aa2",
+        "ac_id": "AC_FI_IG",
+        "ac_name": "Credit - Investment Grade",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40062953",
+            "co_info": null,
+            "fund_info": "40062953",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa25",
+        "parent": "aa2",
+        "ac_id": "AC_FI_HY",
+        "ac_name": "Credit - Investment HY",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40082756",
+            "co_info": null,
+            "fund_info": "40082756",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 5,
+        "securities": []
+    }, {
+        "id": "aa31",
+        "parent": "aa3",
+        "ac_id": "AC_RA_RE",
+        "ac_name": "Real Estate",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40001974",
+            "co_info": null,
+            "fund_info": "40001974",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa32",
+        "parent": "aa3",
+        "ac_id": "AC_RA_COMMODITY",
+        "ac_name": "Commodities",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40188463",
+            "co_info": null,
+            "fund_info": "40188463",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa33",
+        "parent": "aa3",
+        "ac_id": "AC_RA_INF",
+        "ac_name": "Infrastructure",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40118931",
+            "co_info": null,
+            "fund_info": "40118931",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 10,
+        "securities": []
+    }, {
+        "id": "aa41",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MA",
+        "ac_name": "IQ Merger Arbitrage",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40191353",
+            "co_info": null,
+            "fund_info": "40191353",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa42",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MF",
+        "ac_name": "Managed Futures",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40183651",
+            "co_info": null,
+            "fund_info": "40183651",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa43",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MS",
+        "ac_name": "Multi-Stratgy",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "68040286",
+            "co_info": null,
+            "fund_info": "68040286",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 5,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_MOD_CONSERVATIVE_PRO_PORTF",
+    "name": "Professional Portfolio - Income",
+    "universe_id": "VESTMO_PRO",
+    "risk_level": 1,
+    "risk_level_title": "Moderately Conservative",
+    "expected_return": 5,
+    "expected_volatility": 6,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 20,
+        "securities": []
+    }, {
+        "id": "aa11",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_ASIAXJAP",
+        "ac_name": "Asia Ex Japan",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40034373",
+            "co_info": null,
+            "fund_info": "40034373",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa12",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_JAPAN",
+        "ac_name": "Japan",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40041163",
+            "co_info": null,
+            "fund_info": "40041163",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa13",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_USA",
+        "ac_name": "USA",
+        "weight": 25,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40007835",
+            "co_info": null,
+            "fund_info": "40007835",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa14",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EU",
+        "ac_name": "Europe",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005602",
+            "co_info": null,
+            "fund_info": "40005602",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa15",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EM",
+        "ac_name": "Emerging Market",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005698",
+            "co_info": null,
+            "fund_info": "40005698",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 60,
+        "securities": []
+    }, {
+        "id": "aa21",
+        "parent": "aa2",
+        "ac_id": "AC_FI_AGG",
+        "ac_name": "Aggregate",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "60101473",
+            "co_info": null,
+            "fund_info": "60101473",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa22",
+        "parent": "aa2",
+        "ac_id": "AC_FI_LTG",
+        "ac_name": "Long Term Government",
+        "weight": 20,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40123266",
+            "co_info": null,
+            "fund_info": "40123266",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa23",
+        "parent": "aa2",
+        "ac_id": "AC_FI_BL",
+        "ac_name": "Bank Loan",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40216340",
+            "co_info": null,
+            "fund_info": "40216340",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa24",
+        "parent": "aa2",
+        "ac_id": "AC_FI_IG",
+        "ac_name": "Credit - Investment Grade",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40062953",
+            "co_info": null,
+            "fund_info": "40062953",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa25",
+        "parent": "aa2",
+        "ac_id": "AC_FI_HY",
+        "ac_name": "Credit - Investment HY",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40082756",
+            "co_info": null,
+            "fund_info": "40082756",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 5,
+        "securities": []
+    }, {
+        "id": "aa31",
+        "parent": "aa3",
+        "ac_id": "AC_RA_RE",
+        "ac_name": "Real Estate",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40001974",
+            "co_info": null,
+            "fund_info": "40001974",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa32",
+        "parent": "aa3",
+        "ac_id": "AC_RA_COMMODITY",
+        "ac_name": "Commodities",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40188463",
+            "co_info": null,
+            "fund_info": "40188463",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa33",
+        "parent": "aa3",
+        "ac_id": "AC_RA_INF",
+        "ac_name": "Infrastructure",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40118931",
+            "co_info": null,
+            "fund_info": "40118931",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 10,
+        "securities": []
+    }, {
+        "id": "aa41",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MA",
+        "ac_name": "IQ Merger Arbitrage",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40191353",
+            "co_info": null,
+            "fund_info": "40191353",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa42",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MF",
+        "ac_name": "Managed Futures",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40183651",
+            "co_info": null,
+            "fund_info": "40183651",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa43",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MS",
+        "ac_name": "Multi-Stratgy",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "68040286",
+            "co_info": null,
+            "fund_info": "68040286",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 5,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_MODERATE_PRO_PORTF",
+    "name": "Professional Portfolio - Balanced",
+    "universe_id": "VESTMO_PRO",
+    "risk_level": 2,
+    "risk_level_title": "Moderate",
+    "expected_return": 8,
+    "expected_volatility": 7,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 40,
+        "securities": []
+    }, {
+        "id": "aa11",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_ASIAXJAP",
+        "ac_name": "Asia Ex Japan",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40034373",
+            "co_info": null,
+            "fund_info": "40034373",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa12",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_JAPAN",
+        "ac_name": "Japan",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40041163",
+            "co_info": null,
+            "fund_info": "40041163",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa13",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_USA",
+        "ac_name": "USA",
+        "weight": 25,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40007835",
+            "co_info": null,
+            "fund_info": "40007835",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa14",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EU",
+        "ac_name": "Europe",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005602",
+            "co_info": null,
+            "fund_info": "40005602",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa15",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EM",
+        "ac_name": "Emerging Market",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005698",
+            "co_info": null,
+            "fund_info": "40005698",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 35,
+        "securities": []
+    }, {
+        "id": "aa21",
+        "parent": "aa2",
+        "ac_id": "AC_FI_AGG",
+        "ac_name": "Aggregate",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "60101473",
+            "co_info": null,
+            "fund_info": "60101473",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa22",
+        "parent": "aa2",
+        "ac_id": "AC_FI_LTG",
+        "ac_name": "Long Term Government",
+        "weight": 20,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40123266",
+            "co_info": null,
+            "fund_info": "40123266",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa23",
+        "parent": "aa2",
+        "ac_id": "AC_FI_BL",
+        "ac_name": "Bank Loan",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40216340",
+            "co_info": null,
+            "fund_info": "40216340",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa24",
+        "parent": "aa2",
+        "ac_id": "AC_FI_IG",
+        "ac_name": "Credit - Investment Grade",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40062953",
+            "co_info": null,
+            "fund_info": "40062953",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa25",
+        "parent": "aa2",
+        "ac_id": "AC_FI_HY",
+        "ac_name": "Credit - Investment HY",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40082756",
+            "co_info": null,
+            "fund_info": "40082756",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 10,
+        "securities": []
+    }, {
+        "id": "aa31",
+        "parent": "aa3",
+        "ac_id": "AC_RA_RE",
+        "ac_name": "Real Estate",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40001974",
+            "co_info": null,
+            "fund_info": "40001974",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa32",
+        "parent": "aa3",
+        "ac_id": "AC_RA_COMMODITY",
+        "ac_name": "Commodities",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40188463",
+            "co_info": null,
+            "fund_info": "40188463",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa33",
+        "parent": "aa3",
+        "ac_id": "AC_RA_INF",
+        "ac_name": "Infrastructure",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40118931",
+            "co_info": null,
+            "fund_info": "40118931",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 12,
+        "securities": []
+    }, {
+        "id": "aa41",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MA",
+        "ac_name": "IQ Merger Arbitrage",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40191353",
+            "co_info": null,
+            "fund_info": "40191353",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa42",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MF",
+        "ac_name": "Managed Futures",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40183651",
+            "co_info": null,
+            "fund_info": "40183651",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa43",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MS",
+        "ac_name": "Multi-Stratgy",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "68040286",
+            "co_info": null,
+            "fund_info": "68040286",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 3,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_MOD_AGGRESSIVE_PRO_PORTF",
+    "name": "Professional Portfolio - Growth",
+    "universe_id": "VESTMO_PRO",
+    "risk_level": 3,
+    "risk_level_title": "Moderately Aggresive",
+    "expected_return": 10,
+    "expected_volatility": 12,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 60,
+        "securities": []
+    }, {
+        "id": "aa11",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_ASIAXJAP",
+        "ac_name": "Asia Ex Japan",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40034373",
+            "co_info": null,
+            "fund_info": "40034373",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa12",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_JAPAN",
+        "ac_name": "Japan",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40041163",
+            "co_info": null,
+            "fund_info": "40041163",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa13",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_USA",
+        "ac_name": "USA",
+        "weight": 25,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40007835",
+            "co_info": null,
+            "fund_info": "40007835",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa14",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EU",
+        "ac_name": "Europe",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005602",
+            "co_info": null,
+            "fund_info": "40005602",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa15",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EM",
+        "ac_name": "Emerging Market",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005698",
+            "co_info": null,
+            "fund_info": "40005698",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 12,
+        "securities": []
+    }, {
+        "id": "aa21",
+        "parent": "aa2",
+        "ac_id": "AC_FI_AGG",
+        "ac_name": "Aggregate",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "60101473",
+            "co_info": null,
+            "fund_info": "60101473",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa22",
+        "parent": "aa2",
+        "ac_id": "AC_FI_LTG",
+        "ac_name": "Long Term Government",
+        "weight": 20,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40123266",
+            "co_info": null,
+            "fund_info": "40123266",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa23",
+        "parent": "aa2",
+        "ac_id": "AC_FI_BL",
+        "ac_name": "Bank Loan",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40216340",
+            "co_info": null,
+            "fund_info": "40216340",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa24",
+        "parent": "aa2",
+        "ac_id": "AC_FI_IG",
+        "ac_name": "Credit - Investment Grade",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40062953",
+            "co_info": null,
+            "fund_info": "40062953",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa25",
+        "parent": "aa2",
+        "ac_id": "AC_FI_HY",
+        "ac_name": "Credit - Investment HY",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40082756",
+            "co_info": null,
+            "fund_info": "40082756",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 12,
+        "securities": []
+    }, {
+        "id": "aa31",
+        "parent": "aa3",
+        "ac_id": "AC_RA_RE",
+        "ac_name": "Real Estate",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40001974",
+            "co_info": null,
+            "fund_info": "40001974",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa32",
+        "parent": "aa3",
+        "ac_id": "AC_RA_COMMODITY",
+        "ac_name": "Commodities",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40188463",
+            "co_info": null,
+            "fund_info": "40188463",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa33",
+        "parent": "aa3",
+        "ac_id": "AC_RA_INF",
+        "ac_name": "Infrastructure",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40118931",
+            "co_info": null,
+            "fund_info": "40118931",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 15,
+        "securities": []
+    }, {
+        "id": "aa41",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MA",
+        "ac_name": "IQ Merger Arbitrage",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40191353",
+            "co_info": null,
+            "fund_info": "40191353",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa42",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MF",
+        "ac_name": "Managed Futures",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40183651",
+            "co_info": null,
+            "fund_info": "40183651",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa43",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MS",
+        "ac_name": "Multi-Stratgy",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "68040286",
+            "co_info": null,
+            "fund_info": "68040286",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 1,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_AGGRESSIVE_PRO_PORTF",
+    "name": "Professional Portfolio - Equity",
+    "universe_id": "VESTMO_PRO",
+    "risk_level": 4,
+    "risk_level_title": "Aggresive",
+    "expected_return": 14,
+    "expected_volatility": 18,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 80,
+        "securities": []
+    }, {
+        "id": "aa11",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_ASIAXJAP",
+        "ac_name": "Asia Ex Japan",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40034373",
+            "co_info": null,
+            "fund_info": "40034373",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa12",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_JAPAN",
+        "ac_name": "Japan",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40041163",
+            "co_info": null,
+            "fund_info": "40041163",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa13",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_USA",
+        "ac_name": "USA",
+        "weight": 25,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40007835",
+            "co_info": null,
+            "fund_info": "40007835",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa14",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EU",
+        "ac_name": "Europe",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005602",
+            "co_info": null,
+            "fund_info": "40005602",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa15",
+        "parent": "aa1",
+        "ac_id": "AC_EQ_EM",
+        "ac_name": "Emerging Market",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40005698",
+            "co_info": null,
+            "fund_info": "40005698",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 5,
+        "securities": []
+    }, {
+        "id": "aa21",
+        "parent": "aa2",
+        "ac_id": "AC_FI_AGG",
+        "ac_name": "Aggregate",
+        "weight": 35,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "60101473",
+            "co_info": null,
+            "fund_info": "60101473",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa22",
+        "parent": "aa2",
+        "ac_id": "AC_FI_LTG",
+        "ac_name": "Long Term Government",
+        "weight": 20,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40123266",
+            "co_info": null,
+            "fund_info": "40123266",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa23",
+        "parent": "aa2",
+        "ac_id": "AC_FI_BL",
+        "ac_name": "Bank Loan",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40216340",
+            "co_info": null,
+            "fund_info": "40216340",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa24",
+        "parent": "aa2",
+        "ac_id": "AC_FI_IG",
+        "ac_name": "Credit - Investment Grade",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40062953",
+            "co_info": null,
+            "fund_info": "40062953",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa25",
+        "parent": "aa2",
+        "ac_id": "AC_FI_HY",
+        "ac_name": "Credit - Investment HY",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40082756",
+            "co_info": null,
+            "fund_info": "40082756",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 5,
+        "securities": []
+    }, {
+        "id": "aa31",
+        "parent": "aa3",
+        "ac_id": "AC_RA_RE",
+        "ac_name": "Real Estate",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40001974",
+            "co_info": null,
+            "fund_info": "40001974",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa32",
+        "parent": "aa3",
+        "ac_id": "AC_RA_COMMODITY",
+        "ac_name": "Commodities",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40188463",
+            "co_info": null,
+            "fund_info": "40188463",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa33",
+        "parent": "aa3",
+        "ac_id": "AC_RA_INF",
+        "ac_name": "Infrastructure",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40118931",
+            "co_info": null,
+            "fund_info": "40118931",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 10,
+        "securities": []
+    }, {
+        "id": "aa41",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MA",
+        "ac_name": "IQ Merger Arbitrage",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40191353",
+            "co_info": null,
+            "fund_info": "40191353",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa42",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MF",
+        "ac_name": "Managed Futures",
+        "weight": 33.33,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40183651",
+            "co_info": null,
+            "fund_info": "40183651",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa43",
+        "parent": "aa4",
+        "ac_id": "AC_AS_MS",
+        "ac_name": "Multi-Stratgy",
+        "weight": 33.34,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "68040286",
+            "co_info": null,
+            "fund_info": "68040286",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 0,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_MODERATE_MA_PORTF",
+    "name": "Moderate Multi-Asset Portfolio",
+    "universe_id": "VESTMO_MA",
+    "risk_level": 1,
+    "risk_level_title": "Moderate",
+    "expected_return": 6,
+    "expected_volatility": 5,    
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 36,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40119505",
+            "co_info": null,
+            "fund_info": "40119505",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 40,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40088065",
+            "co_info": null,
+            "fund_info": "40088065",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 10,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40107614",
+            "co_info": null,
+            "fund_info": "40107614",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 12,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40171932",
+            "co_info": null,
+            "fund_info": "40171932",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 2,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_AGGRESSIVE_MA_PORTF",
+    "name": "Aggressive Multi-Asset Portfolio",
+    "universe_id": "VESTMO_MA",
+    "risk_level_title": "Aggresive",
+    "risk_level": 2,
+    "expected_return": 12,
+    "expected_volatility": 14,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 45,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40119505",
+            "co_info": null,
+            "fund_info": "40119505",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 27,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40088065",
+            "co_info": null,
+            "fund_info": "40088065",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 12,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40107614",
+            "co_info": null,
+            "fund_info": "40107614",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 15,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40171932",
+            "co_info": null,
+            "fund_info": "40171932",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 1,
+        "securities": null
+    }]
+} {
+    "id": "VESTMO_CONSERVATIVE_MA_PORTF",
+    "name": "Conservative Multi-Asset Portfolio",
+    "universe_id": "VESTMO_MA",
+    "risk_level": 0,
+    "risk_level_title": "Conservative",
+    "expected_return": 3,
+    "expected_volatility": 3,
+    "aa": [{
+        "id": "aa1",
+        "parent": "aa",
+        "ac_id": "AC_EQ",
+        "ac_name": "Equity",
+        "weight": 20,
+        "securities": [{
+            "ric": "GOOG.O",
+            "lipper_id": null,
+            "co_info": "GOOG.O",
+            "fund_info": null,
+            "type": "STOCK"
+        }]
+    }, {
+        "id": "aa2",
+        "parent": "aa",
+        "ac_id": "AC_FI",
+        "ac_name": "Fixed Income",
+        "weight": 62,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40088065",
+            "co_info": null,
+            "fund_info": "40088065",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa3",
+        "parent": "aa",
+        "ac_id": "AC_RA",
+        "ac_name": "Real Assets",
+        "weight": 7,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40107614",
+            "co_info": null,
+            "fund_info": "40107614",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa4",
+        "parent": "aa",
+        "ac_id": "AC_AS",
+        "ac_name": "Alternative Strategies",
+        "weight": 9,
+        "securities": [{
+            "ric": null,
+            "lipper_id": "40171932",
+            "co_info": null,
+            "fund_info": "40171932",
+            "type": "FUND"
+        }]
+    }, {
+        "id": "aa5",
+        "parent": "aa",
+        "ac_id": "AC_CASH",
+        "ac_name": "Cash",
+        "weight": 2,
+        "securities": null
+    }]
+}

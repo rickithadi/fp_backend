@@ -1,0 +1,135 @@
+{
+        sp_id: 1,
+        portf_id: 0,
+        risk_level_title: 'Very Conservative',
+        portf_title: 'Balanced 3-Fund Model',
+        data: [{
+                name: 'Amundi First Eagle Income Builder',
+                y: 60,
+                default_weight: 60,
+                id: 0
+            },
+            {
+                name: 'Natixis Loomis-Sayles Multi-Sector',
+                y: 20,
+                default_weight: 20,
+                id: 1
+            },
+            {
+                name: 'First State Bridge',
+                y: 20,
+                default_weight: 20,
+                id: 2
+            }
+        ],
+        portf_hl: '<ul><li>Combination of 3 High Conviction FST Recommanded Funds</li><li>Users the CIO SAA as a reference point but can & does notably diverge from it.</li><li>Significant shift in the Balanced Model, reducing Cash by replacing Deutsche Lion with First State Bridge (an Asian Balanced fund)</li><li>Balanced model is approximately 55% Fixed Income / 45% Equity & Alternatives</li></ul>',
+        updated_dt: ISODate("2017-07-27T00:00:00.000Z")
+    }
+    {
+        sp_id: 1,
+        portf_id: 1,
+        risk_level_title: 'Conservative',
+        portf_title: 'Growth 3-Fund Model',
+        data: [{
+                name: 'Amundi First Eagle Income Builder',
+                y: 60,
+                default_weight: 60,
+                id: 0
+            },
+            {
+                name: 'Threadneedle Global Eq. Income',
+                y: 20,
+                default_weight: 20,
+                id: 1
+            },
+            {
+                name: 'Fidelity Global EM Markets',
+                y: 20,
+                default_weight: 20,
+                id: 2
+            }
+        ],
+        portf_hl: '<ul><li>Combination of 3 High Conviction FST Recommanded Funds</li><li>Users the CIO SAA as a reference point but can & does notably diverge from it.</li><li>Significant shift in the Growth Model, reducing Bonds by replacing Natixis LS Multi-Sector Income with core Global Equity Fund : Threadneedle Global Equity Income </li><li>Growth model is 29% Fixed Income / 71% Equity & Alternatives</li></ul>',
+        updated_dt: ISODate("2017-07-27T00:00:00.000Z")
+    }
+    {
+        sp_id: 1,
+        portf_id: 2,
+        risk_level_title: 'Moderate',
+        portf_title: 'growth 3-Fund Model',
+        data: [{
+                name: 'Threadneedle Global Eq. Income',
+                y: 50,
+                default_weight: 50,
+                id: 0
+            },
+            {
+                name: 'Fidelity Global EM Markets',
+                y: 40,
+                default_weight: 40,
+                id: 1
+            },
+            {
+                name: 'Schroders Gold & Precious Metals',
+                y: 10,
+                default_weight: 10,
+                id: 2
+            }
+        ],
+        portf_hl: '<ul><li>Combination of 3 High Conviction FST Recommanded Funds</li><li>Users the CIO SAA as a reference point but can & does notably diverge from it.</li><li>There have been no changes to the funds or allocations of the Aggressive model in Q2 ‘16.</li><li>Aggressive model is 3% Fixed Income / 97% Equity & Alternatives</li></ul>',
+        updated_dt: ISODate("2017-07-27T00:00:00.000Z")
+    }
+    {
+        sp_id: 1,
+        portf_id: 3,
+        risk_level_title: 'Aggressive',
+        portf_title: 'Aggressive 3-Fund Model',
+        data: [{
+                name: 'Threadneedle Global Eq. Income',
+                y: 50,
+                default_weight: 50,
+                id: 0
+            },
+            {
+                name: 'Fidelity Global EM Markets',
+                y: 40,
+                default_weight: 40,
+                id: 1
+            },
+            {
+                name: 'Schroders Gold & Precious Metals',
+                y: 10,
+                default_weight: 10,
+                id: 2
+            }
+        ],
+        portf_hl: '<ul><li>Combination of 3 High Conviction FST Recommanded Funds</li><li>Users the CIO SAA as a reference point but can & does notably diverge from it.</li><li>There have been no changes to the funds or allocations of the Aggressive model in Q2 ‘16.</li><li>Aggressive model is 3% Fixed Income / 97% Equity & Alternatives</li></ul>',
+        updated_dt: ISODate("2017-07-27T00:00:00.000Z")
+    }
+    {
+        sp_id: 1,
+        portf_id: 4,
+        risk_level_title: 'Very Aggressive',
+        portf_title: 'Aggressive 3-Fund Model',
+        data: [{
+                name: 'Threadneedle Global Eq. Income',
+                y: 50,
+                default_weight: 50,
+                id: 0
+            },
+            {
+                name: 'Fidelity Global EM Markets',
+                y: 40,
+                default_weight: 40,
+                id: 1
+            },
+            {
+                name: 'Schroders Gold & Precious Metals',
+                y: 10,
+                default_weight: 10,
+                id: 2
+            }
+        ],
+        portf_hl: '<ul><li>Combination of 3 High Conviction FST Recommanded Funds</li><li>Users the CIO SAA as a reference point but can & does notably diverge from it.</li><li>There have been no changes to the funds or allocations of the Aggressive model in Q2 ‘16.</li><li>Aggressive model is 3% Fixed Income / 97% Equity & Alternatives</li></ul>',
+        updated_dt: ISODate("2017-07-27T00:00:00.000Z")
+    }
